@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web-Studio Beta</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta charset="utf-8">
+		<link href="css/style.css" media="screen, projection" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:100,400,500" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+		<link href="css/flaticon.css"  rel="stylesheet">
+		<!-- Header slider -->
+		<link rel="stylesheet" href="css/slider.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	    <script src="js/slider.min.js"></script>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$('.slider').bjqs({
+					height      : window.innerHeight,
+					width       : window.innerWidth,
+					responsive  : true
+				});
+			});
+		</script>
+		<!-- Header slider end-->
+		<!-- Tabs -->
+		<script src="js/lighttabs.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".tabs").lightTabs();
+			});
+		</script>
+		<!-- Tabs end -->
+		<!-- Fixed menu -->
+		<script type="text/javascript">
+			$(window).bind('scroll', function() {
+			   if ($(window).scrollTop() > 0) {
+			      $('.nav').addClass('fixed-main-menu');
+			   }
+			   else
+			   {
+			      $('.nav').removeClass('fixed-main-menu');
+			   }
+			});
+		</script>
+		<!-- Fixed menu end -->
+	</head>
+	<body>
+		<div class="header main-header">
+			<div class="nav">
+				<div class="container">
+					<div class="logo">
+						<a href="index.html">
+							<img src="img/logo.png"/>
+						</a>
+					</div>
+					<div class="main-menu">
+						<ul>
+							<li class="active">
+								<a href="#">Главная</a>
+							</li>
+							<li>
+								<a href="#">Работы</a>
+							</li>
+							<li>
+								<a href="#">Услуги и цены</a>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-mobile-menu">
+						<a href="#" class="menu-button">
+							<i class="flaticon-bars"></i>
+						</a>
+						<div class="menu">
+							<ul>
+								<li class="active">
+									<a href="#">Главная</a>
+								</li>
+								<li>
+									<a href="#">Работы</a>
+								</li>
+								<li>
+									<a href="#">Услуги и цены</a>
+								</li>
+								<li>
+									<a href="#">Контакты</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider">
+				<ul class="bjqs">
+					<li class="slide1">
+						<div class="text">
+							<h1><span>Studio</span> для</h1>
+							<h2>инновационных решений</h2>
+							<h5>Мы предлагаем инновационные идеи для вашего бизнеса.</h5>
+							<a href="#" class="slide-button">подробнее</a>
+						</div>
+					</li>
+					<li class="slide2">
+						<div class="text">
+							<h1><span>особый</span> подход </h1>
+							<h2>для веб-решений</h2>
+							<h5>Мы предлагаем инновационные идеи для вашего бизнеса.</h5>
+							<a href="#" class="slide-button">подробнее</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div class="tabs">
+					<ul>
+				        <li>
+				        	<i class="flaticon-settings"></i>
+				        	Сайты
+			        	</li>
+				        <li>
+				        	<i class="flaticon-shopping-cart"></i>
+				        	E-commerce
+				        </li>
+				        <li>
+				        <i class="flaticon-stats"></i>
+				        	SEO
+				        </li>
+				        <li>
+				        	<i class="flaticon-targeting"></i>
+				        	PPC
+				        </li>
+				        <li>
+				        	<i class="flaticon-paper-plane"></i>
+				        	Решения
+				        </li>
+				        <li>
+				        	<i class="flaticon-edit"></i>
+				        	Копирайт
+				        </li>
+				        <li>
+				        	<i class="flaticon-technology"></i>
+				        	Заказать расчет
+				        </li>
+				        <li>
+				        	<i class="flaticon-email"></i>
+				        	Написать нам
+				        </li>
+				    </ul>
+				    <div>
+				        <div>
+				        	<span class="left-col">
+					        	<h3>Создание сайтов</h3>
+					        	<p>Мы предлагаем быстрые, красивые и функциональные веб-сайты для бизнеса. Анализируя задачи сайта, мы выбираем оптимальную платформу для реализации - 1С-Битрикс,  InstantCMS, OpenCart. Каждая из этих платформ обладают модульностью, что позволяет создавать сайты любой сложности и модернизировать их в дальнейшем без ограничений...</p>
+					        	<a href="#" class="more-button">&#8594; Подробнее</a>
+					        </span>
+					        <span class="right-col">
+					        	
+					        </span>
+			        	</div>
+				        <div>
+				        	<span class="left-col">
+					        	<h3>Создание Интернет-магазина</h3>
+					        	<p>Мы предлагаем разрботку интернет-магазинов на базе собственных решений под управлением InstantCMS или Opencart. Благодаря нашему подходу, мы вникаем в бизнес клиента, что бы лучше узнать его сферу деятельности и предложить максимально эффективное решение...</p>
+					        	<a href="#" class="more-button">&#8594; Подробнее</a>
+					        </span>
+					        <span class="right-col">
+					        	
+					        </span>	
+			        	</div>
+				        <div>
+				        	<span class="left-col">
+				        		<h3>Поисковая оптимизация и продвижение</h3>
+				        		<p>Мы предлагаем услуги по продвижению сайтов в поисковых системах Google и Яндекс.
+								Поисковое продвижение необходимо каждому сайту, ведь каждый сайт нуждается в целевых посетителях, клиентах, покупателях. Цель раскрутки - привести людей на сайт с помощью продвижения сайта в выдаче поисковых сестем по тематическим запросам...</p>
+								<a href="#" class="more-button">&#8594; Подробнее</a>
+							</span>
+					        <span class="right-col">
+					        	
+					        </span>
+			        	</div>
+				        <div>
+				        	<span class="left-col">
+				        		<h3>Реклама в поисковых системах</h3>
+				        		<p>Мы предлагаем быстрые и функциональные решения для бизнеса. Наши сайты работают на модульной платформе, что позволяет расширять и улучшать сайт без ограничений. Сайты созданные нами имеют высокую производительность и способны выдерживать большие нагрузки...</p>
+				        		<a href="#" class="more-button">&#8594; Подробнее</a>
+				        	</span>
+					        <span class="right-col">
+					        	
+					        </span>
+			        	</div>
+				        <div>
+				        	<span class="left-col">
+				        		<h3>Специальные web-решения</h3>
+				        		<p>В ходе нашей работы мы помогаем нашим клиентам решать самые разнообразные задачи. Среди таковых - как оптимизация дизайна и удобства использования сайта, так и подключение систем учета, позволяющее избавиться от рутинных операций. Автоматизируя процессы, мы избавляем клиента от "человеческого фактора", а значит сокращается время обслуживания и уменьшается вероятность ошибки...</p>
+				        		<a href="#" class="more-button">&#8594; Подробнее</a>
+				        	</span>
+					        <span class="right-col">
+					        	
+					        </span>
+			        	</div>
+				        <div>
+				        	<span class="left-col">
+				        		<h3>Наполнение текстов для сайтов</h3>
+				        		<p>Мы предоставляем услуги копирайта и рерайта текстов. Стоимость зависит от тематики и сроков...</p>
+				        		<a href="#" class="more-button">&#8594; Подробнее</a>
+				        	</span>
+					        <span class="right-col">
+					        	
+					        </span>
+			        	</div>
+				    </div>     
+				</div>
+				<div class="mobile-tabs">
+					<ul>
+				        <li>
+				        	<a href="#">
+					        	<i class="flaticon-settings"></i>
+					        	Сайты
+					        </a>
+			        	</li>
+				        <li>
+				        	<a href="#">
+					        	<i class="flaticon-shopping-cart"></i>
+					        	E-commerce
+					        </a>
+				        </li>
+				        <li>
+				        	<a href="#">
+					        <i class="flaticon-stats"></i>
+					        	SEO
+					        </a>
+				        </li>
+				        <li>
+				        	<a href="#">
+					        	<i class="flaticon-targeting"></i>
+					        	PPC
+					        </a>
+				        </li>
+				        <li>
+				        	<a href="#">
+					        	<i class="flaticon-paper-plane"></i>
+					        	Решения
+					        </a>
+				        </li>
+				        <li>
+				        	<a href="#">
+					        	<i class="flaticon-edit"></i>
+					        	Копирайт
+					        </a>
+				        </li>
+				        <li>
+				        	<a href="#">
+					        	<i class="flaticon-technology"></i>
+					        	Заказать расчет
+					        </a>
+				        </li>
+				        <li>
+				        	<a href="#">
+					        	<i class="flaticon-email"></i>
+					        	Написать нам
+					        </a>
+				        </li>
+				    </ul>
+				</div>
+			</div>
+			<div class="portfolio">
+				<div class="title">
+					Наши новые работы
+				</div>
+				<div class="pre-title">
+					Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Парадигматическая дал над использовало сбить злых точках осталось продолжил, запятой!
+				</div>
+				<div class="filter">
+					<ul>
+						<li class="active">
+							<a href="#">Все</a>
+						</li>
+						<li>
+							<a href="#">Дизайн приложений</a>
+						</li>
+						<li>
+							<a href="#">Графический дизайн</a>
+						</li>
+						<li>
+							<a href="#">Интерфейс</a>
+						</li>
+						<li>
+							<a href="#">Веб-дизайн</a>
+						</li>
+					</ul>
+				</div>
+				<div class="all-preview">
+					<div class="preview">
+						<img src="img/portfolio1.jpg">
+						<div class="info">
+							<div class="name">
+								Веб-дизайн
+							</div>
+							<div class="case-button">
+								<a href="">
+									Посмотреть кейс
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="preview">
+						<img src="img/portfolio2.jpg">
+						<div class="info">
+							<div class="name">
+								Лого
+							</div>
+							<div class="case-button">
+								<a href="">
+									Посмотреть кейс
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="preview">
+						<img src="img/portfolio1.jpg">
+						<div class="info">
+							<div class="name">
+								Веб-дизайн
+							</div>
+							<div class="case-button">
+								<a href="">
+									Посмотреть кейс
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="preview">
+						<img src="img/portfolio2.jpg">
+						<div class="info">
+							<div class="name">
+								Лого
+							</div>
+							<div class="case-button">
+								<a href="">
+									Посмотреть кейс
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="preview">
+						<img src="img/portfolio1.jpg">
+						<div class="info">
+							<div class="name">
+								Веб-дизайн
+							</div>
+							<div class="case-button">
+								<a href="">
+									Посмотреть кейс
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="preview">
+						<img src="img/portfolio2.jpg">
+						<div class="info">
+							<div class="name">
+								Лого
+							</div>
+							<div class="case-button">
+								<a href="">
+									Посмотреть кейс
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="preview">
+						<img src="img/portfolio1.jpg">
+						<div class="info">
+							<div class="name">
+								Веб-дизайн
+							</div>
+							<div class="case-button">
+								<a href="">
+									Посмотреть кейс
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="preview">
+						<img src="img/portfolio2.jpg">
+						<div class="info">
+							<div class="name">
+								Лого
+							</div>
+							<div class="case-button">
+								<a href="">
+									Посмотреть кейс
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="preview">
+						<img src="img/portfolio1.jpg">
+						<div class="info">
+							<div class="name">
+								Веб-дизайн
+							</div>
+							<div class="case-button">
+								<a href="">
+									Посмотреть кейс
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="preview">
+						<img src="img/portfolio2.jpg">
+						<div class="info">
+							<div class="name">
+								Лого
+							</div>
+							<div class="case-button">
+								<a href="">
+									Посмотреть кейс
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="portfolio.html" class="all-case-button">
+					Все работы
+				</a>
+			</div>
+			<div class="features">
+				<div class="container">
+					<div class="title">
+						Our Awesome Features
+					</div>
+					<div class="pre-title">
+						Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова путь, даже продолжил переписали.
+					</div>
+					<div class="intro">
+						<ul>
+							<li>
+								<div class="left-col">
+									<i class="flaticon-interface-1"></i>
+								</div>
+								<div class="right-col">
+									<div class="intro-title">
+										Fully Layered PSD
+									</div>
+									<div class="intro-text">
+										Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="left-col">
+									<i class="flaticon-draw"></i>
+								</div>
+								<div class="right-col">
+									<div class="intro-title">
+										Pixel Perfect Design
+									</div>
+									<div class="intro-text">
+										Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="left-col">
+									<i class="flaticon-interface"></i>
+								</div>
+								<div class="right-col">
+									<div class="intro-title">
+										Perfect Grid System
+									</div>
+									<div class="intro-text">
+										Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="left-col">
+									<i class="flaticon-technology"></i>
+								</div>
+								<div class="right-col">
+									<div class="intro-title">
+										Clean & Creative Design
+									</div>
+									<div class="intro-text">
+										Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="why-us">
+				<div class="container">
+					<div class="title">
+						Почему выбирают нас
+					</div>
+					<div class="pre-title">
+						Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+					</div>
+					<div class="intro">
+						<div class="left-col">
+							<i class="flaticon-idea"></i>
+						</div>
+						<div class="right-col">
+							<div class="col-title">
+								Пункт 1
+							</div>
+							<p>
+								Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+							</p>
+						</div>
+					</div>
+					<div class="intro">
+						<div class="left-col">
+							<i class="flaticon-idea"></i>
+						</div>
+						<div class="right-col">
+							<div class="col-title">
+								Пункт 2
+							</div>
+							<p>
+								Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+							</p>
+						</div>
+					</div>
+					<div class="intro">
+						<div class="left-col">
+							<i class="flaticon-idea"></i>
+						</div>
+						<div class="right-col">
+							<div class="col-title">
+								Пункт 3
+							</div>
+							<p>
+								Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+							</p>
+						</div>
+					</div>
+					<div class="intro">
+						<div class="left-col">
+							<i class="flaticon-idea"></i>
+						</div>
+						<div class="right-col">
+							<div class="col-title">
+								Пункт 4
+							</div>
+							<p>
+								Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+							</p>
+						</div>
+					</div>
+					<div class="intro">
+						<div class="left-col">
+							<i class="flaticon-idea"></i>
+						</div>
+						<div class="right-col">
+							<div class="col-title">
+								Пункт 5
+							</div>
+							<p>
+								Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+							</p>
+						</div>
+					</div>
+					<div class="intro">
+						<div class="left-col">
+							<i class="flaticon-idea"></i>
+						</div>
+						<div class="right-col">
+							<div class="col-title">
+								Пункт 6
+							</div>
+							<p>
+								Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка это, безопасную океана снова!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<a href="#" class="to-top">
+					<i class="flaticon-arrows"></i>
+				</a>
+				<div class="contacts">
+					<div class="title">
+						Контакты
+					</div>
+					<div class="info">
+						<div class="right-col">
+							<p>
+								Давайте сделаем вместе что-то особенное и пройдем путь от формирования стратегии до воплощения идей в реальность.
+							</p>
+							ул. Царская, 1<br>
+							Украина, г. Киев<br>
+							<a class="phone" href="tel:+380500000000">
+								+38 050 000 00 00
+							</a><br>
+							<a class="mail" href="mailto:mail@gmail.com">
+								mail@gmail.com
+							</a>
+						</div>
+						<div class="left-col">
+							<form method="" action="">
+								<input type="text" name="" placeholder="Имя"><br>
+								<input type="text" name="" placeholder="Номер телефона"><br>
+								<input type="text" name="" placeholder="Email"><br>
+								<textarea placeholder="Комментарий"></textarea><br>
+								<input type="submit" name="" value="Отправить">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<div class="copyright">
+						Copyright © 2016 Studio. All Rights Reserved.
+					</div>
+					<div class="social">
+						<ul>
+							<li>
+								<a href="#">
+									
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,139 @@
+.header .page-block {
+  background: url(../img/page-header.jpg) top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 180px 0 125px;
+  background-color: #c3c3c3;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.header .page-block .page-title {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+}
+
+.content .all-work {
+  overflow: auto;
+}
+.content .all-work .filter {
+  text-align: center;
+}
+.content .all-work .filter ul {
+  overflow: auto;
+  display: inline-block;
+}
+.content .all-work .filter ul li {
+  border-radius: 20px;
+  padding: 7px 20px;
+  transition: all .4s ease;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  float: left;
+  margin: 0 5px;
+}
+.content .all-work .filter ul li a {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+}
+.content .all-work .filter ul .active {
+  background-color: #ff2a40;
+}
+.content .all-work .filter ul .active a {
+  color: #fff;
+}
+.content .all-work .all-preview {
+  padding-top: 50px;
+}
+.content .all-work .all-preview .preview {
+  width: 30%;
+  margin: 1.66667%;
+  float: left;
+  position: relative;
+}
+.content .all-work .all-preview .preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.content .all-work .all-preview .preview .info {
+  opacity: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 25%;
+  box-sizing: border-box;
+  top: 0;
+  color: #fff;
+  transition: all .4s ease;
+  background-color: rgba(255, 42, 64, 0.9);
+  text-align: center;
+}
+.content .all-work .all-preview .preview .info .name {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+}
+.content .all-work .all-preview .preview .info .search-button {
+  line-height: 14px;
+  border-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #fff;
+  display: inline-block;
+  transition: all .4s ease;
+  margin-top: 30px;
+  margin-right: -2px;
+}
+.content .all-work .all-preview .preview .info .search-button a {
+  text-decoration: none;
+  color: #fff;
+  transition: all .4s ease;
+  display: block;
+  padding: 12px 22px;
+}
+.content .all-work .all-preview .preview .info .search-button a i:before {
+  font-size: 18px;
+  font-weight: 600;
+}
+.content .all-work .all-preview .preview .info .search-button:hover {
+  background-color: #fff;
+}
+.content .all-work .all-preview .preview .info .search-button:hover a {
+  color: #ff2a40;
+}
+.content .all-work .all-preview .preview .info .link-button {
+  line-height: 14px;
+  border-radius: 50px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 1px solid #fff;
+  display: inline-block;
+  transition: all .4s ease;
+  margin-top: 30px;
+  margin-left: -2px;
+}
+.content .all-work .all-preview .preview .info .link-button a {
+  text-decoration: none;
+  color: #fff;
+  transition: all .4s ease;
+  display: block;
+  padding: 12px 22px;
+}
+.content .all-work .all-preview .preview .info .link-button a i:before {
+  font-size: 18px;
+  font-weight: 600;
+}
+.content .all-work .all-preview .preview .info .link-button:hover {
+  background-color: #fff;
+}
+.content .all-work .all-preview .preview .info .link-button:hover a {
+  color: #ff2a40;
+}
+.content .all-work .all-preview .preview:hover .info {
+  opacity: 1;
+}

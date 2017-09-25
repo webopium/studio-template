@@ -1,0 +1,101 @@
+.header .page-block {
+  background: url(../img/page-header.jpg) top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 180px 0 125px;
+  background-color: #c3c3c3;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.header .page-block .page-title {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+}
+
+.content .case-nav {
+  overflow: auto;
+}
+.content .case-nav .prev, .content .case-nav .home, .content .case-nav .next {
+  text-decoration: none;
+  color: #666;
+  float: left;
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  transition: all .4s ease;
+  font-family: 'Roboto', sans-serif;
+}
+.content .case-nav .home {
+  margin: 0 15px;
+}
+.content .case-nav .home i:before {
+  font-size: 14px;
+}
+.content .case-nav .prev:hover, .content .case-nav .home:hover, .content .case-nav .next:hover {
+  color: #ff2a40;
+}
+.content .case-block {
+  margin-top: 25px;
+  padding-bottom: 75px;
+  overflow: auto;
+}
+.content .case-block .left-col {
+  float: left;
+  width: 70%;
+  padding-right: 35px;
+  box-sizing: border-box;
+}
+.content .case-block .left-col img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.content .case-block .right-col {
+  width: 30%;
+  float: right;
+}
+.content .case-block .right-col .details .title {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  color: #202020;
+  font-family: 'Roboto Slab', serif;
+}
+.content .case-block .right-col .details p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #666;
+}
+.content .case-block .right-col .case-info ul {
+  width: 100%;
+  margin-top: 15px;
+  overflow: auto;
+}
+.content .case-block .right-col .case-info ul li {
+  line-height: 20px;
+  margin: 15px 0;
+  color: #666;
+}
+.content .case-block .right-col .case-info ul li span {
+  width: 35%;
+  float: left;
+  display: block;
+  color: #202020;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+.content .case-block .right-col .case-info ul li a {
+  text-decoration: none;
+  color: #666;
+  transition: all .4s ease;
+}
+.content .case-block .right-col .case-info ul li a:hover {
+  color: #ff2a40;
+}
